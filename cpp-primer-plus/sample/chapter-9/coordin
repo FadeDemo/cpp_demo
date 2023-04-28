@@ -1,0 +1,19 @@
+//
+// Created by fade on 2023/4/28.
+//
+
+#ifndef CPP_DEMO_COORDIN_H
+#define CPP_DEMO_COORDIN_H
+struct polar
+{
+    double distance;
+    double angle;
+};
+struct rect
+{
+    double x;
+    double y;
+};
+polar rect_to_polar(rect);
+void show_polar(polar);
+#endif //CPP_DEMO_COORDIN_H
