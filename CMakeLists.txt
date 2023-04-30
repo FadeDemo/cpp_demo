@@ -140,3 +140,5 @@ add_executable(external cpp-primer-plus/sample/chapter-9/external.cpp cpp-primer
 add_executable(twofile1 cpp-primer-plus/sample/chapter-9/twofile1.cpp cpp-primer-plus/sample/chapter-9/twofile2.cpp)
 add_executable(static cpp-primer-plus/sample/chapter-9/static.cpp)
 add_executable(newplace cpp-primer-plus/sample/chapter-9/newplace.cpp)
+add_executable(namessp cpp-primer-plus/sample/chapter-9/namessp.cpp cpp-primer-plus/sample/chapter-9/namesp.cpp)
+add_executable(9-1 cpp-primer-plus/exercise/chapter-9/9-1.cpp cpp-primer-plus/exercise/chapter-9/golf.cpp)
