@@ -20,9 +20,10 @@ public:
     void buy(long, double );
     void sell(long, double);
     void update(double);
-    void show();
+    void show() const;
     Stock(const std::string &, long n = 0, double pr = 0.0);
-
+    Stock();
     ~Stock();
+    const Stock & topval(const Stock &) const;
 };
 #endif //CPP_DEMO_STOCK00_H

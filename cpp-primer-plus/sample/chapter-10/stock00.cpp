@@ -43,7 +43,7 @@ void Stock::update(double price) {
     share_val = price;
     set_tot();
 }
-void Stock::show() {
+void Stock::show() const {
     using std::ios_base;
     auto orig = std::cout.setf(ios_base::fixed, ios_base::floatfield);
     auto prec = std::cout.precision(3);
@@ -61,4 +61,15 @@ Stock::Stock(const std::string & co, long n, double pr) {
 
 Stock::~Stock() {
     std::cout << "Bye, " << company << "!" << std::endl;
+}
+
+const Stock &Stock::topval(const Stock & s) const {
+    if (s.total_val > this->total_val) {
+        return s;
+    }
+    return *this;
+}
+
+Stock::Stock() {
+
 }
