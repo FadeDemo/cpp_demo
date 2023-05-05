@@ -155,3 +155,4 @@ add_executable(stone1 cpp-primer-plus/sample/chapter-11/stone1.cpp cpp-primer-pl
 add_executable(vegnews cpp-primer-plus/sample/chapter-12/vegnews.cpp cpp-primer-plus/sample/chapter-12/stringbad.cpp)
 add_executable(placenew1 cpp-primer-plus/sample/chapter-12/placenew1.cpp)
 add_executable(placenew2 cpp-primer-plus/sample/chapter-12/placenew2.cpp)
+add_executable(12-1 cpp-primer-plus/exercise/chapter-12/12-1.cpp cpp-primer-plus/exercise/chapter-12/Cow.cpp)
