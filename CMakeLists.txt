@@ -156,3 +156,4 @@ add_executable(vegnews cpp-primer-plus/sample/chapter-12/vegnews.cpp cpp-primer-
 add_executable(placenew1 cpp-primer-plus/sample/chapter-12/placenew1.cpp)
 add_executable(placenew2 cpp-primer-plus/sample/chapter-12/placenew2.cpp)
 add_executable(12-1 cpp-primer-plus/exercise/chapter-12/12-1.cpp cpp-primer-plus/exercise/chapter-12/Cow.cpp)
+add_executable(usett0 cpp-primer-plus/sample/chapter-13/tabtenn0.cpp  cpp-primer-plus/sample/chapter-13/usett0.cpp)
