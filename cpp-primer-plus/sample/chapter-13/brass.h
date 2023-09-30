@@ -32,10 +32,6 @@ public:
     void ResetOwes() { owesBank = 0; }
 };
 
-BrassPlus::BrassPlus(/* args */)
-{
-}
-
 BrassPlus::~BrassPlus()
 {
 }
