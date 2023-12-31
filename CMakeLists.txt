@@ -161,3 +161,4 @@ add_executable(usett1 cpp-primer-plus/sample/chapter-13/tabtenn0.cpp  cpp-primer
 add_executable(usebrass1 cpp-primer-plus/sample/chapter-13/brass.cpp  cpp-primer-plus/sample/chapter-13/usebrass1.cpp)
 add_executable(usebrass2 cpp-primer-plus/sample/chapter-13/brass.cpp  cpp-primer-plus/sample/chapter-13/usebrass2.cpp)
 add_executable(usebrass3 cpp-primer-plus/sample/chapter-13/acctabc.cpp  cpp-primer-plus/sample/chapter-13/usebrass3.cpp)
+add_executable(use_stuc cpp-primer-plus/sample/chapter-14/student.cpp  cpp-primer-plus/sample/chapter-14/use_stuc.cpp)
