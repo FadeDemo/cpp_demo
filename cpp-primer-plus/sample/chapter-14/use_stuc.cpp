@@ -1,5 +1,6 @@
 #include <iostream>
-#include "studentc.h"
+// #include "studentc.h"
+#include "studenti.h"
 using std::cin;
 using std::cout;
 using std::endl;
