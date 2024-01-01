@@ -163,3 +163,4 @@ add_executable(usebrass2 cpp-primer-plus/sample/chapter-13/brass.cpp  cpp-primer
 add_executable(usebrass3 cpp-primer-plus/sample/chapter-13/acctabc.cpp  cpp-primer-plus/sample/chapter-13/usebrass3.cpp)
 add_executable(use_stuc cpp-primer-plus/sample/chapter-14/student.cpp  cpp-primer-plus/sample/chapter-14/use_stuc.cpp)
 add_executable(use_stuci cpp-primer-plus/sample/chapter-14/studenti.cpp  cpp-primer-plus/sample/chapter-14/use_stuc.cpp)
+add_executable(worktest cpp-primer-plus/sample/chapter-14/worker0.cpp  cpp-primer-plus/sample/chapter-14/worktest.cpp)
