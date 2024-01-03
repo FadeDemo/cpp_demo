@@ -167,3 +167,8 @@ add_executable(worktest cpp-primer-plus/sample/chapter-14/worker0.cpp  cpp-prime
 add_executable(workmi cpp-primer-plus/sample/chapter-14/workermi.cpp  cpp-primer-plus/sample/chapter-14/workmi.cpp)
 add_executable(stackem  cpp-primer-plus/sample/chapter-14/stacktem.cpp)
 add_executable(stkoptr1  cpp-primer-plus/sample/chapter-14/stkoptr1.cpp)
+add_executable(twod  cpp-primer-plus/sample/chapter-14/twod.cpp)
+add_executable(pairs  cpp-primer-plus/sample/chapter-14/pairs.cpp)
+add_executable(tempemb  cpp-primer-plus/sample/chapter-14/tempemb.cpp)
+add_executable(tempparm  cpp-primer-plus/sample/chapter-14/tempparm.cpp)
+add_executable(frnd2tmp  cpp-primer-plus/sample/chapter-14/frnd2tmp.cpp)
