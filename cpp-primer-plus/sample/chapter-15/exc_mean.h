@@ -9,6 +9,11 @@ class bad_hmean
     double v2;
 public:
     bad_hmean(double a = 0, double b = 0) : v1(a), v2(b) {}
+    bad_hmean(const bad_hmean & b) {
+        v1 = b.v1;
+        v2 = b.v2;
+        std::cout << "调用复制构造函数\n";
+    }
     void mesg();
 };
 
