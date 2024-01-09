@@ -4,6 +4,7 @@
 
 int main() {
     using namespace std;
+    // cout << (int)0.01 << endl;
     auto_ptr<string> films[5] = {
         auto_ptr<string>(new string("Fowl Balls")),
         auto_ptr<string>(new string("Duck Walks")),
