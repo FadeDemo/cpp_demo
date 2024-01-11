@@ -23,7 +23,10 @@ int main() {
     three.remove(2);
     cout << endl << "List three minus 2s: ";
     for_each(three.begin(), three.end(), outint);
+    list<int>::iterator iterator = one.begin()++;
+    cout << endl << "iterator in one before splice: " << *iterator;
     three.splice(three.begin(), one);
+    cout << endl << "iterator in one after splice: " << *iterator;
     cout << endl << "List three after splice: ";
     for_each(three.begin(), three.end(), outint);
     cout << endl << "List one: ";
