@@ -215,3 +215,10 @@ add_executable(lambda0 cpp-primer-plus/sample/chapter-18/lambda0.cpp)
 add_executable(lambda1 cpp-primer-plus/sample/chapter-18/lambda1.cpp)
 add_executable(callable cpp-primer-plus/sample/chapter-18/callable.cpp)
 add_executable(wrapped cpp-primer-plus/sample/chapter-18/wrapped.cpp)
+add_executable(variadic1 cpp-primer-plus/sample/chapter-18/variadic1.cpp)
+add_executable(variadic2 cpp-primer-plus/sample/chapter-18/variadic2.cpp)
+
+find_package(Boost)
+if (Boost_FOUND)
+    
+endif (Boost_FOUND)
