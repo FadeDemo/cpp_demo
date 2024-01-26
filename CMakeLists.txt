@@ -218,7 +218,14 @@ add_executable(wrapped cpp-primer-plus/sample/chapter-18/wrapped.cpp)
 add_executable(variadic1 cpp-primer-plus/sample/chapter-18/variadic1.cpp)
 add_executable(variadic2 cpp-primer-plus/sample/chapter-18/variadic2.cpp)
 
-find_package(Boost)
-if (Boost_FOUND)
-    
-endif (Boost_FOUND)
+# use MinGW instead of Cygwin
+find_package(Boost CONFIG REQUIRED)
+if (NOT Boost_FOUND)
+    message(FATAL_ERROR "Boost library not found")
+endif ()
+INCLUDE_DIRECTORIES(${Boost_INCLUDE_DIRS})
+message("Boost version " ${Boost_VERSION})
+message(${Boost_INCLUDE_DIRS})
+add_executable(lexcast cpp-primer-plus/sample/chapter-18/lexcast.cpp)
+#target_include_directories(lexcast PRIVATE ${Boost_INCLUDE_DIRS})
+add_executable(memb_pt cpp-primer-plus/sample/appendix-E/memb_pt.cpp)
