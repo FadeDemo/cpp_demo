@@ -52,5 +52,17 @@ void Example::use_ptr() const {
     (yard.*pf)();
 }
 
+int main()
+{
+    Example car(15);
+    Example van(20);
+    Example garage;
+    cout << "car.use_ptr() output:\n";
+    car.use_ptr();
+    cout << "\nvar.use_ptr() output:\n";
+    van.use_ptr();
+    return 0;
+}
+
 
 
