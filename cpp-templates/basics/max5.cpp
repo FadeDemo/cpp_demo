@@ -22,6 +22,6 @@ int main()
     std::string s;
 
     ::max("apple","peach");   // OK: same type
-    ::max("apple","tomato");  // ERROR: different types
-    ::max("apple",s);         // ERROR: different types
+    // ::max("apple","tomato");  // ERROR: different types
+    // ::max("apple",s);         // ERROR: different types
 }
