@@ -266,3 +266,4 @@ add_executable(myfirstmain cpp-templates/basics/myfirstinst.cpp cpp-templates/ba
 add_executable(myfirst2main cpp-templates/basics/myfirst2main.cpp)
 #add_executable(myfirst3main cpp-templates/basics/myfirst3main.cpp)
 add_executable(myfirst4main cpp-templates/basics/myfirst4main.cpp)
+add_executable(dumpcode cpp-templates/basics/dumpcode.cpp)
