@@ -75,4 +75,4 @@ template void print_typeof<double>(double const&);
 add_executable(myfirstmain cpp-templates/basics/myfirstinst.cpp cpp-templates/basics/myfirstmain.cpp)
 ```
 
-这是因为此时 `myfirstinst.cpp` 中的显示实例化恰好提供了对应的函数定义。
+这是因为此时 `myfirstinst.cpp` 中的显式实例化恰好提供了对应的函数定义。
