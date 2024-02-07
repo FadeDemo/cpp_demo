@@ -58,7 +58,7 @@ undefined reference to `void print_typeof<double>(double const&)'
 collect2.exe: error: ld returned 1 exit status
 ```
 
-为什么这样不行呢，这里编译器在编译 `myfirstmain.cpp` 时，没有看到基于 `double` 实例化的函数定义的时候，编译器会假定我们在别处提供了定义，并产生一个指向该定义的引用，交由链接器来解决这个问题，显然仅编译 `myfirstmain.cpp` 链接器是会报错的。即使我们多编译一个 `myfirst.cpp` ，这里看起来有模板的声明和定义了，但是要注意模板并不创建任何函数，在链接过程中 `myfirst.cpp` 实际上也无 `myfirstmain.cpp` 中要使用的函数定义。并且 `myfirst.cpp` 和 `myfirstmain.cpp` 是不同的翻译单元， `myfirstmain.cpp` 无法根据 `myfirst.cpp` 来创建函数的定义。
+为什么这样不行呢，这里编译器在编译 `myfirstmain.cpp` 时，没有看到基于 `double` 实例化的函数定义的时候，编译器会假定我们在别处提供了定义，并产生一个指向该定义的引用，交由链接器来解决这个问题，显然仅编译 `myfirstmain.cpp` 链接器是会报错的。即使我们多编译一个 `myfirst.cpp` ，这里看起来有模板的定义和实现了，但是要注意模板并不创建任何函数，在链接过程中 `myfirst.cpp` 实际上也无 `myfirstmain.cpp` 中要使用的函数定义。并且 `myfirst.cpp` 和 `myfirstmain.cpp` 是不同的翻译单元， `myfirstmain.cpp` 无法根据 `myfirst.cpp` 来创建函数的定义。
 
 相反假如我们多加一个文件，以及在 `CMakeLists.txt` 中这样定义，我们就能正常运行程序了：
 
