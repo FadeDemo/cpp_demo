@@ -14,3 +14,17 @@ inline T const& max (T const& a, T const& b)
     // if a < b then use b else use a
     return  a < b ? b : a;
 }
+
+//const char * test() {
+//    return "dsdfafddf";
+//}
+
+class test {
+public:
+    test() {};
+    test(const test &) = delete;
+};
+
+test a() {
+    return test();
+}

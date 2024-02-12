@@ -24,4 +24,6 @@ int main()
     std::string s1 = "mathematics";
     std::string s2 = "math";
     std::cout << "max(s1,s2): " << ::max(s1,s2) << std::endl;
+
+//    std::cout << test();
 }

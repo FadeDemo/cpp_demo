@@ -16,7 +16,7 @@ template<typename T> void multi(T *);
 int main()
 {
     apply(&single<int>, 3);
-    apply(&multi<int>, 7);
+//    apply(&multi<int>, 7);
     apply(single<int>, 3);
     return 0;
 }
