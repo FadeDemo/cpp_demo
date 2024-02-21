@@ -43,7 +43,7 @@ class Derived : public X {
 //C<int&, x.n> err2;
 
 int a[10];
-C<int *, &a[0]> err3; // was treated as the address of the array?
+//C<int *, &a[0]> err3; // available in c++ 20
 
 template<typename T1, typename T2, template<typename> class Container>
 class Relation {
