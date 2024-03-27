@@ -21,8 +21,9 @@ int main()
     double value;
     double sum = 0.0;
     int count = 1;
-    inFile >> value;
-    while (inFile.good()) {
+//    inFile >> value;
+    while (inFile >> value) {
+//    while (inFile.good()) {
         ++count;
         sum += value;
         inFile >> value;

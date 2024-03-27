@@ -282,3 +282,8 @@ add_executable(is_default_constructible cpp-templates/basics/is_default_construc
 add_executable(stack33test cpp-templates/basics/stack33test.cpp)
 add_executable(actualparameter cpp-templates/basics/actualparameter.cpp)
 add_executable(friendclztemplate cpp-templates/basics/friendclztemplate.cpp)
+add_executable(qnl1 cppreference/basic-concepts/qualified-name-lookup/qnl1.cpp)
+add_executable(copy_file cppreference/io/cstdio/copy_file.cpp)
+add_executable(copy_file1 cppreference/io/fstream/copy_file.cpp)
+add_executable(copy_file2 cppreference/io/fstream/copy_file1.cpp)
+add_executable(seekg_tellg cppreference/io/fstream/seekg_tellg.cpp)

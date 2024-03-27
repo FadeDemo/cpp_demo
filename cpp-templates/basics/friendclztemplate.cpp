@@ -8,6 +8,9 @@ class Node;
 template<typename T>
 void test1();
 
+//template<typename T>
+//void multiply(T);
+
 template<typename T>
 class Tree {
     friend class Node<T>;
@@ -16,6 +19,9 @@ class Tree {
 //    friend void test1<int>() {};
     template<class TT>
     friend void test2() {}
+    friend void multiply(int) {}
+//    friend void ::multiply(void*);
+//    friend void ::multiply(int);
 };
 
 int main()
