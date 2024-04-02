@@ -1,10 +1,12 @@
 #include <iostream>
 #include "sales.h"
+#include "exception"
 
 int main() {
     using std::cout;
     using std::cin;
     using std::endl;
+    using std::exception;
     double vals1[12] = {
         1220, 1100, 1122, 2212, 1232, 2334,
         2884, 2393, 3302, 2922, 3002, 3544
@@ -38,6 +40,9 @@ int main() {
             }
         }
         cout << "End of try block 1.\n";
+    }
+    catch(exception & e) {
+        cout << "????" << endl;
     }
     catch(LabeledSales::nbad_index & bad)
     {
