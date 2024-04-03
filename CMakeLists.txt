@@ -1,5 +1,5 @@
 #cmake_minimum_required(VERSION 3.25)
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.27)
 project(cpp_demo)
 
 set(CMAKE_CXX_STANDARD 17)
@@ -292,3 +292,6 @@ add_executable(non-member-function-definition cppreference/basic-concepts/unqual
 add_executable(adl cpp-templates/details/adl.cpp)
 add_executable(friend-function cppreference/functions/argument-dependent-lookup/friend-function.cpp)
 add_executable(inject cpp-templates/details/inject.cpp)
+add_executable(dependent-names-binding-rules cppreference/declarations/expressions/templates/dependent-names/binding-rules.cpp)
+add_executable(typename-disambiguator cppreference/declarations/expressions/templates/dependent-names/typename-disambiguator.cpp)
+add_executable(template-disambiguator cpp-templates/details/template-disambiguator.cpp)
