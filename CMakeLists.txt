@@ -298,3 +298,5 @@ add_executable(template-disambiguator cpp-templates/details/template-disambiguat
 add_executable(adl-e1 cppreference/functions/argument-dependent-lookup/e1.cpp)
 add_executable(non-dependent-base-class cpp-templates/details/non-dependent-base-class.cpp)
 add_executable(dependent-base-class cpp-templates/details/dependent-base-class.cpp)
+add_executable(cpp-template-detail-lazy cpp-templates/details/lazy.cpp)
+add_executable(function-template-poi cpp-templates/details/function-template-poi.cpp)
