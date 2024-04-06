@@ -300,3 +300,7 @@ add_executable(non-dependent-base-class cpp-templates/details/non-dependent-base
 add_executable(dependent-base-class cpp-templates/details/dependent-base-class.cpp)
 add_executable(cpp-template-detail-lazy cpp-templates/details/lazy.cpp)
 add_executable(function-template-poi cpp-templates/details/function-template-poi.cpp)
+add_executable(cpp-template-detail-deduction-context cpp-templates/details/deduction-context.cpp)
+add_executable(cpp-template-details-fppm cpp-templates/details/fppm.cpp)
+add_executable(funcoverload cpp-templates/details/funcoverload.cpp)
+add_executable(cpp-template-details-func-overload-partial-order cpp-templates/details/cpp-template-details-func-overload-partial-order.cpp)
