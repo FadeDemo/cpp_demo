@@ -304,3 +304,5 @@ add_executable(cpp-template-detail-deduction-context cpp-templates/details/deduc
 add_executable(cpp-template-details-fppm cpp-templates/details/fppm.cpp)
 add_executable(funcoverload cpp-templates/details/funcoverload.cpp)
 add_executable(cpp-template-details-func-overload-partial-order cpp-templates/details/cpp-template-details-func-overload-partial-order.cpp)
+add_executable(cpp-template-details-nontmpl cpp-templates/details/nontmpl.cpp)
+add_executable(cpp-template-details-explicit-specialization cpp-templates/details/cpp-template-details-explicit-specialization.cpp)
