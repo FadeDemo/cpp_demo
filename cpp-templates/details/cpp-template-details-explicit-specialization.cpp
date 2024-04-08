@@ -9,13 +9,18 @@ public:
 };
 
 template<typename T, typename U = typename Types<T>::I>
-class S;
+class S {
+    static int code;
+};
 
 template<>
 class S<void> {
 public:
     void f();
 };
+
+template <>
+int S<bool>::code;
 
 template<> class S<char, char>;
 
