@@ -307,3 +307,4 @@ add_executable(cpp-template-details-func-overload-partial-order cpp-templates/de
 add_executable(cpp-template-details-nontmpl cpp-templates/details/nontmpl.cpp)
 add_executable(cpp-template-details-explicit-specialization cpp-templates/details/cpp-template-details-explicit-specialization.cpp)
 add_executable(explicit-template-specialization-e1 cppreference/declarations/expressions/templates/explicit-template-specialization/e1.cpp)
+add_executable(cpp-template-details-future-direction cpp-templates/details/future-direction.cpp)
