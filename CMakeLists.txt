@@ -311,3 +311,5 @@ add_executable(cpp-template-details-future-direction cpp-templates/details/futur
 add_executable(cpp-template-poly-dynapoly cpp-templates/poly/dynapoly.cpp)
 add_executable(cpp-template-poly-staticpoly cpp-templates/poly/staticpoly.cpp)
 add_executable(cpp-template-poly-printmax cpp-templates/poly/printmax.cpp)
+add_executable(cpp-template-traits-accum1 cpp-templates/traits/accum1.cpp)
+add_executable(cpp-template-traits-accum2 cpp-templates/traits/accum2.cpp)
