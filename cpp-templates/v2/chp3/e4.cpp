@@ -19,6 +19,10 @@ int main()
     std::cout << i << "\n";
     int j;
     // not allowed
-//    C<(j)> j;
+//    C<(j)> m;
+//    C<j> m;
+    static int k;
+    C<(k)> l;
+//    C<k> n;
     return 0;
 }
