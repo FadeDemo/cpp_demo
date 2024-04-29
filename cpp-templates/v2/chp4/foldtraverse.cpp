@@ -7,6 +7,8 @@ struct Node {
   }
   //...
 };
+
+// 指向数据成员的指针
 auto left = &Node::left;
 auto right = &Node::right;
 
@@ -18,6 +20,7 @@ Node* traverse (T np, TP... paths) {
 
 int main()
 {
+    // 构造树
   // init binary tree structure:
   Node* root = new Node{0};
   root->left = new Node{1};
@@ -26,4 +29,7 @@ int main()
   // traverse binary tree:
   Node* node = traverse(root, left, right);
   //...
+  delete root->left->right;
+  delete root->left;
+  delete root;
 }
