@@ -374,3 +374,5 @@ add_executable(cpp-template-v2-chp6-specialmemtmpl2 cpp-templates/v2/chp6/specia
 add_executable(cpp-template-v2-chp6-specialmemtmpl3 cpp-templates/v2/chp6/specialmemtmpl3.cpp)
 add_executable(cpp-template-v2-chp6-e2 cpp-templates/v2/chp6/e2.cpp)
 add_executable(cpp-template-v2-chp6-e3 cpp-templates/v2/chp6/e3.cpp)
+add_executable(cpp-template-v2-chp7-cref cpp-templates/v2/chp7/cref.cpp)
+add_executable(cpp-template-v2-chp7-e1 cpp-templates/v2/chp7/e1.cpp)
