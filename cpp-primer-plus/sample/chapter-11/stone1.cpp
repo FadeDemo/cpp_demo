@@ -12,5 +12,6 @@ int main()
     cout << "Poppins: " << p_wt << " pounds.\n";
     cout << "Convert to int => ";
     cout << "Poppins: " << int(poppins) << " pounds.\n";
+    cout << "Poppins: " << poppins.operator int() << " pounds.\n";
     return 0;
 }
