@@ -386,3 +386,7 @@ add_executable(cpp-template-v2-chp11-tmplparamref cpp-templates/v2/chp11/tmplpar
 add_executable(cpp-template-v2-chp11-referror1 cpp-templates/v2/chp11/referror1.cpp)
 add_executable(cpp-template-v2-chp12-max cpp-templates/v2/chp12/max.cpp)
 add_executable(cpp-template-v2-chp12-implicit cpp-templates/v2/chp12/implicit.cpp)
+add_executable(cpp-template-v2-chp12-e8 cpp-templates/v2/chp12/e8.cpp)
+add_executable(cpp-template-v2-chp13-adl cpp-templates/v2/chp13/adl.cpp)
+add_executable(cpp-template-v2-chp13-e2 cpp-templates/v2/chp13/e2.cpp)
+add_executable(cpp-template-v2-chp13-inject cpp-templates/v2/chp13/inject.cpp)
