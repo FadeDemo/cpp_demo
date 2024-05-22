@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.27)
 project(cpp_demo)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
 add_executable(cpp_demo main.cpp)
 
@@ -410,3 +410,4 @@ add_executable(cpp-template-v2-chp16-nontmpl2 cpp-templates/v2/chp16/nontmpl2.cp
 add_executable(cpp-template-v2-chp16-tmplconstr cpp-templates/v2/chp16/tmplconstr.cpp)
 add_executable(cpp-template-v2-chp16-variadicoverload cpp-templates/v2/chp16/variadicoverload.cpp)
 add_executable(cpp-template-v2-chp16-tupleoverload cpp-templates/v2/chp16/tupleoverload.cpp)
+add_executable(cpp-template-v2-chp18-dynapoly cpp-templates/v2/chp18/dynapoly.cpp)
