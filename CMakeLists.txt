@@ -423,3 +423,5 @@ add_executable(cpp-template-v2-chp19-hasmember cpp-templates/v2/chp19/hasmember.
 add_executable(cpp-template-v2-chp19-e5 cpp-templates/v2/chp19/e5.cpp)
 add_executable(cpp-template-v2-chp19-isvalid1 cpp-templates/v2/chp19/isvalid1.cpp)
 add_executable(cpp-template-v2-chp19-isfundatest cpp-templates/v2/chp19/isfundatest.cpp)
+add_executable(cpp-template-v2-chp19-rparam1 cpp-templates/v2/chp19/rparam1.cpp)
+add_executable(cpp-template-v2-chp19-rparam2 cpp-templates/v2/chp19/rparam2.cpp)
