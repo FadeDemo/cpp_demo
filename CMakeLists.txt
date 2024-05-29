@@ -425,3 +425,4 @@ add_executable(cpp-template-v2-chp19-isvalid1 cpp-templates/v2/chp19/isvalid1.cp
 add_executable(cpp-template-v2-chp19-isfundatest cpp-templates/v2/chp19/isfundatest.cpp)
 add_executable(cpp-template-v2-chp19-rparam1 cpp-templates/v2/chp19/rparam1.cpp)
 add_executable(cpp-template-v2-chp19-rparam2 cpp-templates/v2/chp19/rparam2.cpp)
+add_executable(cpp-template-v2-chp20-min cpp-templates/v2/chp20/min.cpp)
