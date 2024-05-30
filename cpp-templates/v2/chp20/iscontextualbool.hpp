@@ -4,7 +4,7 @@
 template<typename T>
 class IsContextualBoolT {
  private:
-  template<typename T> struct Identity;
+  template<typename U> struct Identity;
   template<typename U> static std::true_type 
     test(Identity<decltype(declval<U>()? 0 : 1)>*);
   template<typename U> static std::false_type 
