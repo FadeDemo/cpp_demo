@@ -434,3 +434,4 @@ add_executable(cpp-template-v2-chp21-equalitycomparable cpp-templates/v2/chp21/e
 add_executable(cpp-template-v2-chp21-virtual cpp-templates/v2/chp21/virtual.cpp)
 add_executable(cpp-template-v2-chp22-forupto1 cpp-templates/v2/chp22/forupto1.cpp)
 add_executable(cpp-template-v2-chp23-sqrt1 cpp-templates/v2/chp23/sqrt1.cpp)
+add_executable(cpp-template-v2-chp25-indexsort cpp-templates/v2/chp25/indexsort.cpp)

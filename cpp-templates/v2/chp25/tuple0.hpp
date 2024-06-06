@@ -23,9 +23,13 @@ public:
     Tuple(Head const& head, Tuple<Tail...> const& tail)
         : head(head), tail(tail) {
     }
-    Tuple(Head const& head) : head(head), tail(Tuple<>()) {
+//    Tuple(Head const& head) : head(head), tail(Tuple<>()) {
+//
+//    }
+    Tuple(Head const& head, Tail const&... tail) : head(head), tail(Tuple<Tail...>(tail...)) {
 
     }
+
     //...
 
     Head& getHead() { return head; }
