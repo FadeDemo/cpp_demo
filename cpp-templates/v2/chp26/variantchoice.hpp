@@ -1,6 +1,8 @@
 #ifndef VARIANTCHOICE_HPP
 #define VARIANTCHOICE_HPP
 #include "findindexof.hpp"
+#include "../chp24/typelist.hpp"
+#include "variant.hpp"
 
 template<typename T, typename... Types>
 class VariantChoice {

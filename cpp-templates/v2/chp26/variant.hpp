@@ -2,6 +2,7 @@
 #define VARIANT_HPP
 #include "variantstorage.hpp"
 #include "variantchoice.hpp"
+#include "variantvisitresult.hpp"
 template<typename... Types>
 class Variant
     : private VariantStorage<Types...>,
