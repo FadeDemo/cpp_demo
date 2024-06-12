@@ -1,5 +1,8 @@
 #ifndef VARIANTVISITIMPL_HPP
 #define VARIANTVISITIMPL_HPP
+#include "utility"
+#include "../chp24/typelist.hpp"
+#include "variantget.hpp"
 template<typename R, typename V, typename Visitor,
          typename Head, typename... Tail>
 R variantVisitImpl(V&& variant, Visitor&& vis, Typelist<Head, Tail...>) {

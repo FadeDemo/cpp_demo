@@ -1,6 +1,10 @@
 #ifndef FINDINDEXOF_HPP
 #define FINDINDEXOF_HPP
 #include "type_traits"
+#include "../chp24/typelistisempty.hpp"
+#include "../chp24/typelistpopfront.hpp"
+#include "../chp24/typelistfront.hpp"
+#include "../chp19/ifthenelse.hpp"
 template<typename List, typename T, unsigned N = 0,
          bool Empty = IsEmpty<List>::value>
 struct FindIndexOfT;

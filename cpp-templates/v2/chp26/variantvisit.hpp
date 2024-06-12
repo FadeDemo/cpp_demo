@@ -1,5 +1,8 @@
 #ifndef VARIANTVISIT_HPP
 #define VARIANTVISIT_HPP
+#include "variant.hpp"
+#include "utility"
+#include "variantvisitimpl.hpp"
 template<typename... Types>
 template<typename R, typename Visitor>
 VisitResult<R, Visitor, Types&...>
